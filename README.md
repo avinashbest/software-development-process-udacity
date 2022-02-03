@@ -106,3 +106,13 @@ Software processes are normally characterized by several phases, what we call th
 ![](res/9.png)
 
 ## Tools of the Trade
+
+Tools and automation are fundamental, in software engineering. They are fundamental for improving productivity, not only efficiency but also effectiveness of our activities in the software development process.
+
+![](res/10.png)
+
+Tools helps us to do change in developer's productivity and basically move this curve up. So that it gets closer and closer to what we need to develop the software that we need to build.
+
+for e.g, in `development`, think about what kind of improvement it was to go `from punch card to modern IDEs`. If we're talking about languages, think about how much more productive developers became when going `from writing machine code` to writing `code in high-level languages`. And finally, `debugging`, which is a very important and expensive activity, moving from the use of print lines to the use of symbolic debuggers dramatically improve the effectiveness and efficiency of development.
+
+![](res/11.png)
