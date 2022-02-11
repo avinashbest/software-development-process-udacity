@@ -166,15 +166,125 @@ A software project will go through these four phases in an iterative way.
 
 `Spiral process` prescribes is a way of developing software by going through these phases in an iterative way, in which we learn more and more of the software, we identify more and more and account for more and more risks and we go more and more towards our final solution, our final release.
 
-__Advantages:__
+**Advantages:**
 
 - Extensive risk analysis does reduce the chances of the project to fail. So there is a risk reduction advantage.
 - Functionality can be added at a later phase because of the iterative nature of process.
 - Software is produced early in the software lifecycle. So, at any iteration we have something to show for our development. We don't wait until the end before producing something.
 - Get early feedback from the customer about what we produced.
 
-__Disadvantages:__
+**Disadvantages:**
 
 - The risk analysis requires highly specific expertise.
 - And unfortunately, the whole success of the process is highly dependent on risk analysis.
 - It is way more complex then the waterfall model.
+
+## Evolutionary Prototyping
+
+It works in four main phases.
+
+- We start from an `initial concept`, that we design and implement a prototype based ont this concept, refine the prototype until it is acceptable, and finally we complete and release the final product.
+
+- Therefore, when developing a system using evolutionary prototyping, the `system is continually refined and rebuilt.` So it is an ideal process when not all requirements are well understood Which is a very common situation.
+
+- Developers start by developing the parts of the system that they understand, instead of working on developing a whole system, including parts that might not be very clear at that stage.
+
+- The partial system is then shown to the customer and the `customer feedback is used to drive the next iteration,` in which either changes are made to the current features or new features are added. So, either the current prototype is improved or the prototype is extended.
+
+- And finally, when the customer agrees that the `prototype is good enough, the developers will complete all the remaining work` on the system and release the prototype as the final product.
+
+![](res/22.png)
+
+**Advantages:**
+
+- Immediate feedback from the customer. Developers gets feedback as soon as they produce a prototype and they show it to the customer and therefore, the risk of implementing the wrong system is minimized.
+
+**Disadvantages:**
+
+- It's difficult to plan in advance how long the development is going to take, because we don't know how many iterations will be needed. And another drawback, it can easily become an excuse to do kind of do cut and fix kind of approaches in which we hack something together, fix the main issues when the customer gives us feedback, and then continue this way, until the final product is something that is king of working, but it's not really a product of high quality.
+
+## Rational Unified Process (RUP)
+
+- RUP is very popular one based on the Unified Modeling Language (UML) model.
+
+- RUP works in an iterative way, which means it that it performs different iterations. And at each iteration, it performs four phases.
+
+  ![](res/23.png)
+
+- So, in each one of these four phases, we perform standard software engineering activities. And we do them to different extent, based on the phase i which we are.
+
+- In particular, in the `Inception phase` the work is mostly to sculpt the system. So basically figuring out what is the scope of the work, what is the scope of the project, what is the domain. So that we can be able to perform initial cost and budget estimates.
+
+- The `Operational phase` is the the phase in which we focus on the domain analysis and define the basic architecture for the system. So this is a phase in which analysis and design are particularly paramount.
+
+- Then there is a `Construction phase`, which is where the bulk of the development actually occurs.
+
+- And finally, the `Transition phase` is the phase in which the system goes from development into production, so that it becomes available to users. And of course, this is the phase in which the other activities in software development become less relevant and deployment becomes the main one.
+
+## Agile Software Development Process
+
+This is a group of software development methods that are based on highly iterative and incremental development.
+
+In particular, we'll discuss the `Test Driven Development` or TDD.
+
+The space on the iteration of three main phases.
+
+- In the `first one we mark as red,` we write test cases that encode our requirements, and for which we haven't written code yet. And therefore, they will fail, obviously. So we're in this sort of red or fail phase.
+
+- From red phase, we move to `Green phase`, in which after we write the just enough code to make the test cases pass. We have a set of test cases that are all passing. And therefore, we can consider this as the green phase. We have enough code to make the test cases pass because the test cases encode our requirements. We have just written enough code to satisfy our requirements. When we do this over time though, what happens is that the structure of the code deteriorates, because we keep adding pieces.
+
+- So that's why we have to first step. which is `refactoring`. In this step, we modify the code to more readable, more maintainable. In general, we modify to improve the design of the code. And after this phase, we will go back to writing more test cases for new requirements, write code that makes these test cases pass, and so on. So we'll continue to iterate among these phases.
+
+![](res/24.png)
+
+## Choosing a Model
+
+Picking an appropriate model can ensure the success of a project. On the contrary, if we choose the wrong model, that can be a constant source of problems and ultimately, it can make the project fail.
+
+![](res/25.png)
+
+To pick an appropriate model, we need to consider the many factors.
+
+- In particular, we need to be aware of what level of understanding we have of the requirements. Do we understand all the requirements? Are we going to able to collect all the requirements in advance, or collecting requirements is going to be hard and therefore, we might want to follow a process that is more flexible with that respect.
+
+- Another important point is the expected lifetime of the project. Is this a quick project that we are putting together for a specific purpose or something that's going to last for a number of years and that we're going to maintain over all those years?
+
+- Also, what is the level of risk involved? Do we know the domain very well? Do we know exactly the technologies involved? Well, if so, we might go with a traditional process. Otherwise, we might want to be more agile, more flexible.
+
+- It is also very important to know the schedule constraints. How much time, how many resources do we have for this project? What is the expected interaction with the management and the customer?
+
+- In particular for this ladder, there many processes that rely on the fact that there can be a continuous interaction with the customer. If that interaction is not there, there's no way we are going to be able to use these processes.
+
+- Conversely, there are processes that don't require the presence of the customer at all, except for the initial phase and maybe some checking points and so if the customer is very inaccessible, we might want to follow one of those processes, instead of one of the more demanding ones in terms of customer's time.
+
+- Finally, it is important to take into account the level of the expertise of the people involved. Do we have people that know the technologies that we're using? Do we know people that know specific kind of process? Some processes require more specific expertise and we're not going to be able to follow that process if we don't have that expertise.
+
+  ![](res/26.png)
+
+**Q. Which of the following models is suitable to develop a software control system?**
+
+    [✅] Pure Waterfall Model
+    [❌] Test Driven Development (Agile)
+    [❌] Evolutionary Prototyping
+
+**Q. Which of the following models is suitable if you expect midcourse corrections?**
+
+    [❌] Pure Waterfall Model
+    [✅] Spiral Model
+    [✅] Evolutionary Prototyping
+
+## Lifecycle Documents
+
+- Documenting the activities carried out during the different phases of the software development lifecycle, is a very important task.
+
+- The documents that we produce are used for different purposes, such as communicative details of the software systems.
+
+- To differentiate the colors, ensure the correct implementation of the system, facilitate maintenance, and so on.
+
+- There are standardized documents that are provided by IEEE that we can use for this purpose. However, they're kind of heavy weight.
+
+- So for the time being, we're going to use lightweight documents.
+
+- To take a look at both the IEEE versions and light-weight versions of these documents, visit [this link.](https://www.udacity.com/wiki/sdp/projects#docs)
+
+## Classic Mistakes : People
