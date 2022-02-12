@@ -2,7 +2,7 @@
 
 - [P1L1 Introduction and Overview](Introduction_and_Overview.md)
 - [P1L2 Life Cycle and Models](Life_Cycle_Models.md)
-- [P1L3 Integrated Development Environments]()
+- [P1L3 Integrated Development Environments](Integrated_Development_Environments.md)
 - [P1L4 Version Control]()
 - [P1L5 Requirements Gathering]()
 - [P2L1 Requirements Engineering]()
