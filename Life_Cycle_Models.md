@@ -245,19 +245,19 @@ Picking an appropriate model can ensure the success of a project. On the contrar
 
 To pick an appropriate model, we need to consider the many factors.
 
-- In particular, we need to be aware of what level of understanding we have of the requirements. Do we understand all the requirements? Are we going to able to collect all the requirements in advance, or collecting requirements is going to be hard and therefore, we might want to follow a process that is more flexible with that respect.
+- In particular, we need to be aware of what `level of understanding we have of the requirements.` Do we understand all the requirements? Are we going to able to collect all the requirements in advance, or collecting requirements is going to be hard and therefore, we might want to follow a process that is more flexible with that respect.
 
-- Another important point is the expected lifetime of the project. Is this a quick project that we are putting together for a specific purpose or something that's going to last for a number of years and that we're going to maintain over all those years?
+- Another important point is the `expected lifetime of the project.` Is this a quick project that we are putting together for a specific purpose or something that's going to last for a number of years and that we're going to maintain over all those years?
 
-- Also, what is the level of risk involved? Do we know the domain very well? Do we know exactly the technologies involved? Well, if so, we might go with a traditional process. Otherwise, we might want to be more agile, more flexible.
+- Also, what is the `level of risk involved?` Do we know the domain very well? Do we know exactly the technologies involved? Well, if so, we might go with a traditional process. Otherwise, we might want to be more agile, more flexible.
 
-- It is also very important to know the schedule constraints. How much time, how many resources do we have for this project? What is the expected interaction with the management and the customer?
+- It is also very important to know the `schedule constraints.` How much time, how many resources do we have for this project? What is the expected interaction with the management and the customer?
 
-- In particular for this ladder, there many processes that rely on the fact that there can be a continuous interaction with the customer. If that interaction is not there, there's no way we are going to be able to use these processes.
+- In particular for this ladder, there many processes that rely on the fact that there can be a `continuous interaction with the customer.` If that interaction is not there, there's no way we are going to be able to use these processes.
 
-- Conversely, there are processes that don't require the presence of the customer at all, except for the initial phase and maybe some checking points and so if the customer is very inaccessible, we might want to follow one of those processes, instead of one of the more demanding ones in terms of customer's time.
+- `Conversely,` there are processes that `don't require the presence of the customer at all,` except for the initial phase and maybe some checking points and so if the customer is very inaccessible, we might want to follow one of those processes, instead of one of the more demanding ones in terms of customer's time.
 
-- Finally, it is important to take into account the level of the expertise of the people involved. Do we have people that know the technologies that we're using? Do we know people that know specific kind of process? Some processes require more specific expertise and we're not going to be able to follow that process if we don't have that expertise.
+- Finally, it is important to take into account the `level of the expertise of the people involved. `Do we have people that know the technologies that we're using? Do we know people that know specific kind of process? Some processes require more specific expertise and we're not going to be able to follow that process if we don't have that expertise.
 
   ![](res/26.png)
 
@@ -288,3 +288,56 @@ To pick an appropriate model, we need to consider the many factors.
 - To take a look at both the IEEE versions and light-weight versions of these documents, visit [this link.](https://www.udacity.com/wiki/sdp/projects#docs)
 
 ## Classic Mistakes : People
+
+- `Heroics:` refers to too much emphasis on can do attitudes, so this idea that one person by himself can do everything can make the difference in the whole project. And unfortunately, this encourages extreme risk taking and discourages cooperation, which is plain bad for the project.
+
+  **For e.g,** It might force people not to report schedule slips. It might force people to take on too responsibility. And normally, the final result is a failure.
+
+- `Bad Working Environment:` there is a strong evidence that the working environment can play a major role in productivity. There is evidence that productivity increases when the workplace is nice, quite, warm and welcoming.
+
+- `Poor People Management:` _lack of leadership,_ can lead to very unhappy personnel and therefore, low productivity, or people leaving teams. Another e.g, _adding people to a project that is behind schedule, which never works_. Because these new people need to be brought up to speed, and that causes further delays rather than improving the situation with the project schedule.
+
+![](res/27.png)
+
+For additional information, check out [Classic Mistakes Enumerated](http://www.stevemcconnell.com/rdenum.htm), by Steve McConnell.
+
+## Classic Mistakes : Process
+
+- `Scheduling Issues:` Which is due to the fact of being unable to come up with a realistic schedule. So to have an overly optimistic schedule. And this can be because we underestimate the effort involved in different parts of project. Because we overestimate the ability of the people involved. Because we overestimate the importance.
+
+- `Planning Issues:` Planning is a fundamental factor in software processes and in software development. Mistakes in planning, such as insufficient planning or abandoning due to pressure, usually lead inexorably to failure.
+
+- `Failure:` Often there are unforeseen failures. Such as failures on the constructor's end, for e.g, that might lead to low quality or late deliverables, which ultimately affects the downstream activities.
+
+  ![](res/28.png)
+
+## Classic Mistakes : Product
+
+- `Gold Plating of Requirements:` It's very common for projects to have more requirements than they need. For e.g, marketing might want to add more features than the ones that are actually needed by the users. And of course having more requirements lengthens the project's schedule in a totally unnecessary way.
+
+- `Feature Creep:` Adding more and more features to a product that were not initially planned and are not really needed in most cases. Average project experiences about a 25% growth in the number of features over its lifetime which can clearly highly effect the project's schedule.
+
+- `Research and Development:` The research and development process is a critical part of software development. It's a very important part of the project. And it's a very important part of the project's schedule.
+
+![](res/29.png)
+
+## Classic Mistakes : Technology
+
+- `Silver Bullet Syndrome:` It refers to situations in which there is too much reliance on the advertized benefits of some previously unused technology.
+
+  **For e.g,** The advertising of a product that was not used in the past.
+
+  **Problem:** We cannot expect technology alone to solve our software development problems. So we should not rely too much on the technology alone.
+
+- `Switching Tools:` Introducing new tools to a project can have step learning curve, has almost always negative effects.
+
+- `No Version Control:` Manual and adhoc solutions are just not an option. It is way too easy to make mistakes, use out of date versions, be unable to find a previous working version, and so on. Always, use version control and a automated one.
+
+  ![](res/30.png)
+
+**Q. What kind of mistake "adding people to a late project" is?**
+
+    [✅] People mistake
+    [❌] Product mistake
+    [❌] Technology mistake
+    [❌] It is not a mistake
