@@ -10,7 +10,7 @@ Requirements Gathering is the most difficult task that software engineers faces.
     [✅] How will the user specify input?
     [❌] How many lines of code should it take?
 
-# Average Sentence Length
+**Average Sentence Length**
 
 - Vanilla `Java 1.6`.
 - Compile with `javac`, no options.
