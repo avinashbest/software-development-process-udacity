@@ -1,6 +1,6 @@
 # Requirements Engineering:
 
-> "It provides us a description of what system has to do. So, typically they describe the functionality of the features. That the system has to deliver in order to satisfy its stakeholders." **~ Jane Cleland-Huang**
+> "It provides us a description of what system has to do. So, typically they describe the functionality of the features. That the system has to deliver in order to satisfy its stakeholders." ~ Jane Cleland-Huang
 
 - Requirements Engineering is the process of establishing the `services that the customer requires from the software system.` In addition to that, requirements engineering also has to do with the constraints under which the system operates and is developed.
 
@@ -82,7 +82,7 @@ Is the above list complete?
 
 - So what happens is that often the stakeholders are short on time, overwhelmed by the amount of information they're given and so they give in to the pressure and sign. And this is a bit of dramatization clearly but it's clear that what we are looking at is not an ideal scenario.
 
--Clearly this is not the way to identify the real purpose of a software system to collect good requirements. And since one of the major causes for project failure is the inadequacy of requirements, we should really avoid this kind of scenario.
+- Clearly this is not the way to identify the real purpose of a software system to collect good requirements. And since one of the major causes for project failure is the inadequacy of requirements, we should really avoid this kind of scenario.
 
 - We should follow a rigorous and effective requirements engineering process instead.
 
