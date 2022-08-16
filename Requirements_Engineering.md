@@ -87,3 +87,103 @@ Is the above list complete?
 - We should follow a rigorous and effective requirements engineering process instead.
 
 ## RE Definition Breakdown:
+
+Requirements Engineering is a `set of activities` concerned with `identifying and communicating` the `purpose` of a software intensive system, and the `context` in which it will be used. Hence, RE acts as the bridge between the `real-world needs` of users, customers and other `constituencies` affected by a software system and the `capabilites and opportunities` afforded by software intensive technologies.
+
+- `set of activities:` Not a phase or a stage
+- `identifying and communicating:` Communication is as importatn as analysis.
+- `purpose:` Quality means fitness-for-purpose. Cannot say anything about quality unless you understand the purpose.
+- `context:` Designers need to know how and where the system will be used.
+- `real-world needs:` Requirements are partly about what is needed...
+- `constituencies:` Needed to identify all the stakeholders - not just the customer and the user.
+
+## Defining Requirements:
+
+Events in the real world that the machine can sense and actions in the real world that the cause. So this is what the specification is about, a bridge between these two worlds that define what the system should do to satisfy the requirements.
+
+![img](res/44.png)
+
+**Q. Referring to the figure that we just discussed, indicate, for each of the following items, whether they belong to ? (1) The machine domain (2) Application Domain (3) or their intersection (Enter the corresponding number 1, 2 or 3 in the entry next to the item.)**
+
+    [1] An algorithm sorts a list of books in alphabetical order by the first author's name
+    [3] A notification of the arrival of a message appears on a smartwatch
+    [2] An employee wants to organize a meeting with a set of colleagues
+    [3] A user clicks a link on a web page.
+
+## Functional and Non-Functional Requirements:
+
+`Functional` requirements have to do with the functionality of the system, with what the system does with teh computation. for e.g, the elevator shall take people to the floor they select.
+
+`Non-Functional` requirements, conversely, refer to a system's non-functional properties, systems qualitites. Such as security, accuracy, performance, cost or usablity, adaptability, interoperability, reusablitiy and so on. for e.g, the elevator has to be fast.
+
+## User and System Requirements:
+
+| User Requirements                                | System Requirements                               |
+| :----------------------------------------------- | :------------------------------------------------ |
+| Written for customers                            | Written for developers                            |
+| Often in natural languague, no technical details | Detailed functional & Non-Functional requirements |
+|                                                  | Clearly & rigorously specified                    |
+
+![img](res/45.png)
+
+**Q. Which of the following requirements are non-functional requirements?**
+
+    [✅] The BowlingAlley program keeps track of the score during a game.
+    [❌] The WordCount program should be able to process large files.
+    [❌] The login program for a website should be secure.
+    [✅] The VendingMachine program should take coins as an input from the user.
+
+## Requirements Origins:
+
+- Stakeholders
+- Application Domain
+- Documentation
+
+## Elicitation Problems:
+
+![img](res/46.png)
+
+## Traditional Techniques:
+
+![img](res/47.png)
+
+## Other Techniques:
+
+- Collaborative Techniques
+- Social Approaches
+- Cognitive Techniques
+
+## Modeling Requirements:
+
+> What you want to model and how you want to model it.
+
+- **Modeling Enterprises**
+
+  - Goals and Objectives
+  - Organizational Structure
+  - Task & Dependencies
+  - Agents, Roles, Intentionality
+
+- **Modeling Information & Behaviour**
+
+  - Information Structure
+  - Behavioural View
+    - Scenarios & Use Cases
+    - State Machine Models
+    - Sequence Diagrams
+    - Information Flow
+  - Time / Sequencing Requirements
+
+- **Modeling System Qualities (Non-Functional Requirements)**
+
+  ![img](res/48.png)
+
+## Analyzing Requirements:
+
+- **Verification:** Developers will study the requirements to check whether they're correct, whether they accurately reflect the customer needs as perceived by the developer. Developers can also check the completeness of the requirements, check whether there are any missing pieces in the requirements. They can check whether the requirements are pertinent, or contain irrelevant information, also check for consistent, unambiguous, testable and so on.
+
+- **Validation:** The goal of validation is to assess whether the collected requirements define the system that the stakeholders really want. So the focus here is on the stakeholders. Another possibility is that stakeholders asses the requirements by interacting with a prototype of the system.
+
+- **Risk Analysis:** Aims to identify and analyze the main risks involved with the development of the system being considered. And if some requirements are deemed to be too risky, this might result in changes in the requirements model to eliminate or address those risks.
+
+## Requirements Prioritization:
