@@ -187,3 +187,35 @@ Events in the real world that the machine can sense and actions in the real worl
 - **Risk Analysis:** Aims to identify and analyze the main risks involved with the development of the system being considered. And if some requirements are deemed to be too risky, this might result in changes in the requirements model to eliminate or address those risks.
 
 ## Requirements Prioritization:
+
+The resources available for the project are not enough to satisfy all of them. For e.g, there's not enough time, not enough money, not enough man power. And therefore, there are some requirements that we won't be able to satisfy.
+
+In these cases, we must prioritize our requirements by classifying theme in one of three classes:
+
+- Mandatory (required)
+- Nice to have
+- Superfluous (Can be postponed to next release)
+
+## Requirements Engineering Process:
+
+![img](res/49.png)
+
+## Software Requirements Specification (SRS):
+
+SRS document is an important fundamental way to communicate. Requirements to others. For e.g, they represent a common ground between analysts and stakeholders.
+
+NOTE: However, that different projects might require different SRS so you need to know the context. For e.g, the SRS document that you have to create for a small project performed by a few developers can in most cases. Be a concise and informal one. Conversely the SRS for a multi-year project, involving a number of developers can be a fairly complex and extensive document.
+
+In order to have a common format for the SRS document, IEEE standard that divides the document in predefined sections (below a simplified version).
+
+- Introduction: Purpose, context & objectives of the project.
+- User Requirements
+- System Requirements (Functional & Non-Functional)
+
+## Summary:
+
+- Requirement should be simple not compound.
+- Each requirement should express one specific piece of functionality that the system should provide.
+- Requirements should be testable.
+- Requirements should be organized.
+- Requirements should be numbered (not traceability).
